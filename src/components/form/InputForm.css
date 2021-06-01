@@ -1,0 +1,33 @@
+.form {
+  padding: 1rem;
+  background-color: rgb(209, 202, 202);
+  margin: 10rem auto;
+  width: 24rem;
+  max-width: 400%;
+}
+
+.form-input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 30rem;
+  max-width: 100%;
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-forgot {
+  float: right;
+}
+
+.form-login-button {
+  max-width: 100%;
+}
+
+.form-left {
+  float: left;
+}
