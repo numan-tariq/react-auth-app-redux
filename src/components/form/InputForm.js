@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { authActions } from '../../store/index';
+import { authActions } from '../../store/auth';
 
 import { Form, Input, Button, Checkbox } from "antd";
 import "antd/dist/antd.css";
@@ -7,8 +7,8 @@ import './InputForm.css';
 
 function InputForm() {
   const dispatch = useDispatch();
-  const authEmail = useSelector(state => state.email);
-  const authPassword = useSelector(state => state.password);
+  const authEmail = useSelector(state => state.auth.email);
+  const authPassword = useSelector(state => state.auth.password);
   
   const finishHandler = (values) => {
     console.log('[VALUES]', values);
