@@ -1,3 +1,12 @@
+# react-auth-app-redux
+
+React Auth App is dedicated to store email and password with redux.
+
+![Screenshot of Application Frontend](https://i.ibb.co/gSBVPLW/Screenshot-2021-06-02-at-3-08-16-PM.png)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
